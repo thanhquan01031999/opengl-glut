@@ -1,0 +1,147 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Fractals_random_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Fractals::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Fractals_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Fractals_random::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Lorenz::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Lorenz_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "CallbackMaker::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "CallbackMaker_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "freeglut::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "freeglut_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "One::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "One_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "resizer::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "resizer_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "shapes_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "spaceball_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "shapes::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "joystick::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "multi-touch_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "joystick_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "smooth_opengl3_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "smooth_opengl3::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "spaceball::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "multi-touch::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "keyboard_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "indexed_color::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "timer_callback::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "main::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "main_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "timer::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "timer_callback_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "indexed_color_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "3dview::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "3dview_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "subwin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "keyboard::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "subwin_static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "timer_static::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

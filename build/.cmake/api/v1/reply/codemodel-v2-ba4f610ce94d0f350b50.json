@@ -1,0 +1,1600 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-16f99666ccb0586905d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "freeglut",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview-Debug-d9b930e6042ea1be1c49.json",
+					"name" : "3dview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview_static-Debug-04ad917397ea6fa1340d.json",
+					"name" : "3dview_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-0dbda76c821ce64ddffd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker-Debug-af5f794e0a5613b3262b.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker_static-Debug-65cd5e1e53af77fab74b.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals-Debug-5dfa22fff2a828e57138.json",
+					"name" : "Fractals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random-Debug-ec05afe2e74b512a686e.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random_static-Debug-50b828e5375b562f7d09.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_static-Debug-b48b2156822fa6138791.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz-Debug-031f78218fd8df8a44a5.json",
+					"name" : "Lorenz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz_static-Debug-173054dc55d2a1ccb296.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One-Debug-4c2debac813f6199b967.json",
+					"name" : "One",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One_static-Debug-18d8ce1f718da296d0cb.json",
+					"name" : "One_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-a76a0502ed556a81cba5.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut-Debug-dac355cc92724c58d262.json",
+					"name" : "freeglut",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut_static-Debug-fc901c0532675dbd1f79.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color-Debug-0f28702faf9704323246.json",
+					"name" : "indexed_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color_static-Debug-414c095ac4b7c17afa6a.json",
+					"name" : "indexed_color_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-Debug-3acdc572be9bd8da2507.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_static-Debug-802b7f946e7e663f4bf9.json",
+					"name" : "joystick_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard-Debug-d8fd34ad20f44b15e4a6.json",
+					"name" : "keyboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_static-Debug-b8081142ab4769913ab2.json",
+					"name" : "keyboard_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-10f619761a6864c33b93.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_static-Debug-45d2ec80af5d6cfe2ef1.json",
+					"name" : "main_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch-Debug-ce9ccc4d16f71c14d8c5.json",
+					"name" : "multi-touch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch_static-Debug-9087e55fc17090cd5246.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer-Debug-d2d66145b276bde4956d.json",
+					"name" : "resizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer_static-Debug-250c03646a83aaa81cbc.json",
+					"name" : "resizer_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes-Debug-7e1d9bca43bca5ca15d4.json",
+					"name" : "shapes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes_static-Debug-00ef7c2cec6f63386af2.json",
+					"name" : "shapes_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3-Debug-5648c35cc171f3d544a8.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3_static-Debug-6213d007716bda10bf06.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball-Debug-d632ad5a9f3de9245c07.json",
+					"name" : "spaceball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball_static-Debug-32b8e00a19c9bb4757fb.json",
+					"name" : "spaceball_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin-Debug-ae96e694460c8fdf36ff.json",
+					"name" : "subwin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin_static-Debug-8a2be5b8601bfa408f6b.json",
+					"name" : "subwin_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer-Debug-aac172e2b6b51723d1cd.json",
+					"name" : "timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback-Debug-92e86b40de0c21f9c7f8.json",
+					"name" : "timer_callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback_static-Debug-4db12c276a74c2d46c0e.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_static-Debug-c8e1939df8835d63a476.json",
+					"name" : "timer_static",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-820229f1fa47dc062cdf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "freeglut",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview-Release-0c524b39fd7791430046.json",
+					"name" : "3dview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview_static-Release-327a0e7b0b368dd997cf.json",
+					"name" : "3dview_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-0dbda76c821ce64ddffd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker-Release-b96c259916a7325f1158.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker_static-Release-96079102eccfbda74877.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals-Release-49f7be92d2afb83f0846.json",
+					"name" : "Fractals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random-Release-130f17b44ef42f4b37f1.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random_static-Release-d25c5120e52ef31fbda0.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_static-Release-5488762980899cc30adb.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz-Release-90f27cfdd27a4bb8c603.json",
+					"name" : "Lorenz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz_static-Release-276fc54222751e6ca32c.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One-Release-51544913e8b37868b907.json",
+					"name" : "One",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One_static-Release-7df2699942fe9e4421fb.json",
+					"name" : "One_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-a76a0502ed556a81cba5.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut-Release-d8cf4cda684b7fa82ca0.json",
+					"name" : "freeglut",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut_static-Release-e76d7e3678bffae279c9.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color-Release-6eeb342baaa06db882a3.json",
+					"name" : "indexed_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color_static-Release-2e39a543f45b05f985b8.json",
+					"name" : "indexed_color_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-Release-d92f39bb6642730b18eb.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_static-Release-3d951b1231b460c1cc6e.json",
+					"name" : "joystick_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard-Release-a97b93447ab784fd311f.json",
+					"name" : "keyboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_static-Release-3f8356a8ef0a998f6f20.json",
+					"name" : "keyboard_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Release-788f30c7cf2f5e9a7250.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_static-Release-714536cdb0d4c70b2912.json",
+					"name" : "main_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch-Release-67783a4f3822227b8048.json",
+					"name" : "multi-touch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch_static-Release-efc2b3d52e7e23ae2af0.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer-Release-ec20f23535830af1b2a7.json",
+					"name" : "resizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer_static-Release-39c3533446e0578bdfa5.json",
+					"name" : "resizer_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes-Release-68f49f7c24161f381272.json",
+					"name" : "shapes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes_static-Release-923d3d25be73e33f2cd2.json",
+					"name" : "shapes_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3-Release-4827fa575ebd04e0dfae.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3_static-Release-8c2a3058a559ec22a549.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball-Release-eecd82f1b73b1540fd59.json",
+					"name" : "spaceball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball_static-Release-fd8d617f277c4dee19b1.json",
+					"name" : "spaceball_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin-Release-9fac6b809857a034e8ba.json",
+					"name" : "subwin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin_static-Release-de79e691698c45f6a384.json",
+					"name" : "subwin_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer-Release-41ab3a4c47b131666767.json",
+					"name" : "timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback-Release-7a9e44f40100a378a12b.json",
+					"name" : "timer_callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback_static-Release-a943b62027843f07f00b.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_static-Release-496d7c0ce7830034e9ec.json",
+					"name" : "timer_static",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-a83530cf71a017655bbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "freeglut",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview-MinSizeRel-9cc3382feec4db489745.json",
+					"name" : "3dview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview_static-MinSizeRel-e9518df752ee106b46d2.json",
+					"name" : "3dview_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0dbda76c821ce64ddffd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker-MinSizeRel-bd70b3cc04d2de00825d.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker_static-MinSizeRel-1d3f8025f92153bb980c.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals-MinSizeRel-e2ef8ffa1b18e5c54fd3.json",
+					"name" : "Fractals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random-MinSizeRel-25fe5da3d13f69896901.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random_static-MinSizeRel-d3ddddced5eddcd041ed.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_static-MinSizeRel-6657279f184cfe5c147f.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz-MinSizeRel-b02013e31c1a81bc4d6b.json",
+					"name" : "Lorenz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz_static-MinSizeRel-2d20562408faae8832ed.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One-MinSizeRel-893533c3435e6781fdb2.json",
+					"name" : "One",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One_static-MinSizeRel-9d6abe986f47a6ea3076.json",
+					"name" : "One_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-a76a0502ed556a81cba5.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut-MinSizeRel-4732a67c6cec97b910a2.json",
+					"name" : "freeglut",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut_static-MinSizeRel-86f2dda2ab9a4cfdbb31.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color-MinSizeRel-a47988b96b17997b642e.json",
+					"name" : "indexed_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color_static-MinSizeRel-1abb962d966634e4d523.json",
+					"name" : "indexed_color_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-MinSizeRel-d9b96a1ee184f887efa2.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_static-MinSizeRel-0d95222bb658a2f1b111.json",
+					"name" : "joystick_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard-MinSizeRel-21c2c1021ff6ca006a9f.json",
+					"name" : "keyboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_static-MinSizeRel-288e73cff2d716a35acb.json",
+					"name" : "keyboard_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-MinSizeRel-db2a289a314d6819aa31.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_static-MinSizeRel-cd279e132b191661131d.json",
+					"name" : "main_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch-MinSizeRel-cb1579da83344a89628e.json",
+					"name" : "multi-touch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch_static-MinSizeRel-1d5ab43dfd5d7f25dfe5.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer-MinSizeRel-035441fe93d3bf99117c.json",
+					"name" : "resizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer_static-MinSizeRel-75620fb41a34af05fc92.json",
+					"name" : "resizer_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes-MinSizeRel-41555d69867bcef4981f.json",
+					"name" : "shapes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes_static-MinSizeRel-3248144b870f571331f4.json",
+					"name" : "shapes_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3-MinSizeRel-3a6f7fda8392d92364c8.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3_static-MinSizeRel-3a094c0aa431edbe3e26.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball-MinSizeRel-886f2ebc620a916a0e53.json",
+					"name" : "spaceball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball_static-MinSizeRel-8837a62a3012b4c739b4.json",
+					"name" : "spaceball_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin-MinSizeRel-6d91c562a7b9704f6002.json",
+					"name" : "subwin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin_static-MinSizeRel-041fcb86c6cad279dbc5.json",
+					"name" : "subwin_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer-MinSizeRel-8fc31ae7ffbe1c971b8f.json",
+					"name" : "timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback-MinSizeRel-0abc57968910ffd831c0.json",
+					"name" : "timer_callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback_static-MinSizeRel-2b86f82ac8b06e262a89.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_static-MinSizeRel-505947dde9df57dcff98.json",
+					"name" : "timer_static",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-b5b0eba1438b074a01ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "freeglut",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview-RelWithDebInfo-817b793ee0f6d711b83f.json",
+					"name" : "3dview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dview_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dview_static-RelWithDebInfo-bbec5531e061d01c4cc2.json",
+					"name" : "3dview_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0dbda76c821ce64ddffd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker-RelWithDebInfo-00952ef8e903a5f1f4ec.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CallbackMaker_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CallbackMaker_static-RelWithDebInfo-7a12f8ce60bcd7edcfcb.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals-RelWithDebInfo-519c6cec4204c4989333.json",
+					"name" : "Fractals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random-RelWithDebInfo-f02d45483ab208928a8e.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_random_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_random_static-RelWithDebInfo-cb8ec72454a90d187ce6.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fractals_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fractals_static-RelWithDebInfo-52987bbf4dcf23bd07e8.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz-RelWithDebInfo-e17716c8009aa2d43d2c.json",
+					"name" : "Lorenz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lorenz_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lorenz_static-RelWithDebInfo-20bb7a08d594ace36339.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One-RelWithDebInfo-437fe4532fb3287459b6.json",
+					"name" : "One",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "One_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-One_static-RelWithDebInfo-a40b0786bb43fc25c60f.json",
+					"name" : "One_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-a76a0502ed556a81cba5.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut-RelWithDebInfo-ee4bb6c71748d7c1c611.json",
+					"name" : "freeglut",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "freeglut_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freeglut_static-RelWithDebInfo-216ccb2a398193c6222e.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color-RelWithDebInfo-45b11892024cd00c7039.json",
+					"name" : "indexed_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "indexed_color_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indexed_color_static-RelWithDebInfo-7567a3ee2ee9fa2681b6.json",
+					"name" : "indexed_color_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-RelWithDebInfo-5218dd06209dd37fb486.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_static-RelWithDebInfo-321c43d1c4b7c93710cc.json",
+					"name" : "joystick_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard-RelWithDebInfo-4d2ca29040649e13511d.json",
+					"name" : "keyboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_static-RelWithDebInfo-9c588ef24a5c120fd869.json",
+					"name" : "keyboard_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-RelWithDebInfo-7e13350c67d93a31d500.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_static-RelWithDebInfo-4c26389a5c63f89b8324.json",
+					"name" : "main_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch-RelWithDebInfo-038df0aedc9d73401382.json",
+					"name" : "multi-touch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi-touch_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi-touch_static-RelWithDebInfo-bd723132616465f69de6.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer-RelWithDebInfo-75fbac71e60cb2a5983c.json",
+					"name" : "resizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resizer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resizer_static-RelWithDebInfo-546b50ad714cacedd1bb.json",
+					"name" : "resizer_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes-RelWithDebInfo-2095e8521f24cca2b7f7.json",
+					"name" : "shapes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shapes_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shapes_static-RelWithDebInfo-2bc2a2b629ff3660f0be.json",
+					"name" : "shapes_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3-RelWithDebInfo-f80a005a4236ad06ec1a.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smooth_opengl3_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smooth_opengl3_static-RelWithDebInfo-d4b6ecae7df18b569e9e.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball-RelWithDebInfo-8984d08d2c98e1c11c14.json",
+					"name" : "spaceball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spaceball_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spaceball_static-RelWithDebInfo-cf519e681481be3c7d2b.json",
+					"name" : "spaceball_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin-RelWithDebInfo-d5b087fbeb4897753a9b.json",
+					"name" : "subwin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subwin_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subwin_static-RelWithDebInfo-2d5fa1e41198456d625c.json",
+					"name" : "subwin_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer-RelWithDebInfo-7b3ce603e6cecbb288cf.json",
+					"name" : "timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback-RelWithDebInfo-97b402312271a5829940.json",
+					"name" : "timer_callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_callback_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_callback_static-RelWithDebInfo-c004120f8d625249dfcc.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timer_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timer_static-RelWithDebInfo-45bf76c3ef3d46ba020f.json",
+					"name" : "timer_static",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/loith/Downloads/freeglut-3.6.0/build",
+		"source" : "C:/Users/loith/Downloads/freeglut-3.6.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

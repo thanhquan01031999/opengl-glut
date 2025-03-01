@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\loith\Downloads\freeglut-3.6.0\src\main.c(12,9): error C2061: syntax error: identifier 'pointArr'
+C:\Users\loith\Downloads\freeglut-3.6.0\src\main.c(12,9): error C2059: syntax error: ';'
+C:\Users\loith\Downloads\freeglut-3.6.0\src\main.c(12,18): error C2059: syntax error: '['
+C:\Users\loith\Downloads\freeglut-3.6.0\src\main.c(60,21): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
