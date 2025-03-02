@@ -69,11 +69,11 @@ void init()
 void mydisplay()
 {
     glClear(GL_COLOR_BUFFER_BIT);
-    glPointSize(0);
-        for(int i = 0; i < 10; i++)
-        {
-            drawPoint(pointArr[i]);
-        }
+    // glPointSize(0);
+    //     for(int i = 0; i < 10; i++)
+    //     {
+    //         drawPoint(pointArr[i]);
+    //     }
     glLineWidth(4);
     glBegin(GL_LINE_LOOP);
         glVertex2f(pointArr[0].x,pointArr[0].y);
@@ -90,6 +90,21 @@ void mydisplay()
 
         glVertex2f(pointArr[4].x,pointArr[4].y);
         glVertex2f(pointArr[9].x, pointArr[9].y);
+    glEnd();
+
+    glBegin(GL_TRIANGLE_FAN);
+    glVertex2f(0,0);
+    glVertex2f(pointArr[0].x,pointArr[0].y);
+    glVertex2f(pointArr[5].x,pointArr[5].y);
+    glVertex2f(pointArr[1].x,pointArr[1].y);
+    glVertex2f(pointArr[6].x,pointArr[6].y);
+    glVertex2f(pointArr[2].x,pointArr[2].y);
+    glVertex2f(pointArr[7].x,pointArr[7].y);
+    glVertex2f(pointArr[3].x,pointArr[3].y);
+    glVertex2f(pointArr[8].x,pointArr[8].y);
+    glVertex2f(pointArr[4].x,pointArr[4].y);
+    glVertex2f(pointArr[9].x,pointArr[9].y);
+    glVertex2f(pointArr[0].x,pointArr[0].y);
     glEnd();
     glFlush();
 }
