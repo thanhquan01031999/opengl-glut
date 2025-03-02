@@ -1,5 +1,5 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.1 FATAL_ERROR)
-PROJECT(freeglut LANGUAGES C)
+PROJECT(freeglut LANGUAGES C CXX)
 
 if (POLICY CMP0072)
     # This policy sets libOpenGL.so (GLVND) as the default GL library to link
@@ -125,7 +125,7 @@ SET(FREEGLUT_SRCS
     src/fg_teapot_data.h
     src/fg_videoresize.c
     src/fg_window.c
-    src/main.c
+    src/main.cpp
 )
 # TODO: OpenGL ES requires a compatible version of these files:
 IF(NOT FREEGLUT_GLES AND NOT OGC)
@@ -700,7 +700,7 @@ ADD_DEMO(timer_callback  progs/demos/timer_callback/timer.c)
 ADD_DEMO(keyboard        progs/demos/keyboard/keyboard.c)
 ADD_DEMO(indexed_color   progs/demos/indexed_color/idxcol.c)
 ADD_DEMO(3dview          progs/demos/3dview/3dview.c)
-ADD_DEMO(main src/main.c)
+ADD_DEMO(main src/main.cpp)
 
 
 
