@@ -2,9 +2,11 @@
 #include <Windows.h>
 #include <math.h>
 
-float R = 2;
+float R = 4;
 
-#define PI 3.141592
+#define PI 3.14159265358
+#define ARCDIV 19
+#define LINEDIV 16
 
 struct Point2D
 {
@@ -12,6 +14,11 @@ struct Point2D
 };
 
 Point2D pointArr[10];
+Point2D circleArr[ARCDIV*5];
+Point2D lineArr[5][LINEDIV+1];
+Point2D arcArr[5][ARCDIV];
+
+
 
 void drawPoint(Point2D p)
 {
@@ -19,6 +26,35 @@ void drawPoint(Point2D p)
         glVertex2f(p.x, p.y);
     glEnd();
 }
+
+void drawLine(Point2D p1, Point2D p2)
+{
+    glBegin(GL_LINES);
+        glVertex2f(p1.x, p1.y);
+        glVertex2f(p2.x, p2.y);
+    glEnd();
+}
+
+void drawCircle(float x0, float y0, float R, int n = 40)
+{
+    float x, y;
+    float angleinc = 2 * PI / n;
+    float angle;
+    glBegin(GL_LINE_LOOP);
+    angle = 0;
+    x = R * cos(angle);
+    y = R * sin(angle);
+    glVertex2f(x,y);
+    for(int i = 0; i < n; i++)
+    {
+        angle += angleinc;
+        x = R * cos(angle);
+        y = R * sin(angle);
+        glVertex2f(x,y);
+    }
+    glEnd();
+}
+
 Point2D lineIntersection(Point2D p1, Point2D p2, Point2D p3, Point2D p4)
 {
     Point2D t;
@@ -36,17 +72,12 @@ Point2D lineIntersection(Point2D p1, Point2D p2, Point2D p3, Point2D p4)
 
 void calculatePoint()
 {
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < ARCDIV * 5 ; i++)
     {
-        pointArr[i].x = R*cos(PI/2 + i*2*PI/5);
-        pointArr[i].y = R*sin(PI/2 + i*2*PI/5);
+        circleArr[i].x = R * cos(PI/2 + i*2*PI/(ARCDIV*5));
+        circleArr[i].y = R * sin(PI/2 + i*2*PI/(ARCDIV*5));
     }
 
-    pointArr[5] = lineIntersection(pointArr[0],pointArr[2],pointArr[1],pointArr[4]);
-    pointArr[6] = lineIntersection(pointArr[0],pointArr[2],pointArr[1],pointArr[3]);
-    pointArr[7] = lineIntersection(pointArr[1],pointArr[3],pointArr[2],pointArr[4]);
-    pointArr[8]= lineIntersection(pointArr[2],pointArr[4],pointArr[0],pointArr[3]);
-    pointArr[9] = lineIntersection(pointArr[0],pointArr[3],pointArr[1],pointArr[4]);
 
 }
 
@@ -57,7 +88,7 @@ void init()
     glColor3f(1,1,0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(-4.5,4.5,-3.0,3.0,-1.0,1.0);
+    glOrtho(-4.5,4.5,-4.5,4.5,-1.0,1.0);
 
 }
 
@@ -69,43 +100,19 @@ void init()
 void mydisplay()
 {
     glClear(GL_COLOR_BUFFER_BIT);
-    // glPointSize(0);
-    //     for(int i = 0; i < 10; i++)
-    //     {
-    //         drawPoint(pointArr[i]);
-    //     }
-    glLineWidth(4);
-    glBegin(GL_LINE_LOOP);
-        glVertex2f(pointArr[0].x,pointArr[0].y);
-        glVertex2f(pointArr[5].x, pointArr[5].y);
-
-        glVertex2f(pointArr[1].x,pointArr[1].y);
-        glVertex2f(pointArr[6].x, pointArr[6].y);
-
-        glVertex2f(pointArr[2].x,pointArr[2].y);
-        glVertex2f(pointArr[7].x, pointArr[7].y);
-
-        glVertex2f(pointArr[3].x,pointArr[3].y);
-        glVertex2f(pointArr[8].x, pointArr[8].y);
-
-        glVertex2f(pointArr[4].x,pointArr[4].y);
-        glVertex2f(pointArr[9].x, pointArr[9].y);
-    glEnd();
-
-    glBegin(GL_TRIANGLE_FAN);
-    glVertex2f(0,0);
-    glVertex2f(pointArr[0].x,pointArr[0].y);
-    glVertex2f(pointArr[5].x,pointArr[5].y);
-    glVertex2f(pointArr[1].x,pointArr[1].y);
-    glVertex2f(pointArr[6].x,pointArr[6].y);
-    glVertex2f(pointArr[2].x,pointArr[2].y);
-    glVertex2f(pointArr[7].x,pointArr[7].y);
-    glVertex2f(pointArr[3].x,pointArr[3].y);
-    glVertex2f(pointArr[8].x,pointArr[8].y);
-    glVertex2f(pointArr[4].x,pointArr[4].y);
-    glVertex2f(pointArr[9].x,pointArr[9].y);
-    glVertex2f(pointArr[0].x,pointArr[0].y);
-    glEnd();
+    glColor3f(0,1,1);
+    drawCircle(0,0,R,100);
+    glPointSize(5);
+    glLineWidth(5);
+    Point2D center = {0,0};
+    for(int i = 0; i < ARCDIV*5; i++)
+    {
+        drawPoint(circleArr[i]);
+    }
+    for(int i = 0; i < 5; i++)
+    {
+        drawLine(center,circleArr[i*ARCDIV]);
+    }
     glFlush();
 }
 
@@ -115,9 +122,9 @@ int main(int argc, char** argv)
     
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(600,400);
+    glutInitWindowSize(600,600);
     glutInitWindowPosition(0,0);
-    glutCreateWindow("National Flag");
+    glutCreateWindow("Amazing Art");
     glutDisplayFunc(mydisplay);
     
     init();
