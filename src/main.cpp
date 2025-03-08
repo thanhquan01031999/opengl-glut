@@ -1,6 +1,7 @@
 #include <GL/glut.h>
 #include <Windows.h>
 #include <math.h>
+#include <iostream>
 
 float R = 4;
 
@@ -13,119 +14,187 @@ struct Point2D
     float x, y;
 };
 
-Point2D pointArr[10];
-Point2D circleArr[ARCDIV*5];
-Point2D lineArr[5][LINEDIV+1];
-Point2D arcArr[5][ARCDIV];
-
-
-
-void drawPoint(Point2D p)
+struct Point3D
 {
-    glBegin(GL_POINTS);
-        glVertex2f(p.x, p.y);
-    glEnd();
-}
-
-void drawLine(Point2D p1, Point2D p2)
-{
-    glBegin(GL_LINES);
-        glVertex2f(p1.x, p1.y);
-        glVertex2f(p2.x, p2.y);
-    glEnd();
-}
-
-void drawCircle(float x0, float y0, float R, int n = 40)
-{
-    float x, y;
-    float angleinc = 2 * PI / n;
-    float angle;
-    glBegin(GL_LINE_LOOP);
-    angle = 0;
-    x = R * cos(angle);
-    y = R * sin(angle);
-    glVertex2f(x,y);
-    for(int i = 0; i < n; i++)
+    float x, y, z;
+    Point3D(float x, float y, float z)
+        : x(x)
+        , y(x)
+        , z(z)
     {
-        angle += angleinc;
-        x = R * cos(angle);
-        y = R * sin(angle);
-        glVertex2f(x,y);
+
     }
-    glEnd();
-}
-
-Point2D lineIntersection(Point2D p1, Point2D p2, Point2D p3, Point2D p4)
-{
-    Point2D t;
-    float A1, B1, A2, B2;
-    A1 = (p2.y - p1.y)/(p2.x - p1.x);
-    B1 = p1.y - A1*p1.x;
-    A2 = (p4.y - p3.y)/(p4.x - p3.x);
-    B2 = p3.y - A2*p3.x;
-
-    t.x = (B2 - B1)/(A1 - A2);
-    t.y = A1*t.x +B1;
-    return t;
-    
-}
-
-void calculatePoint()
-{
-    for(int i = 0; i < ARCDIV * 5 ; i++)
+    Point3D()
     {
-        circleArr[i].x = R * cos(PI/2 + i*2*PI/(ARCDIV*5));
-        circleArr[i].y = R * sin(PI/2 + i*2*PI/(ARCDIV*5));
+
+    }
+        
+};
+
+class VertexID
+{
+public:
+    int vertIndex;
+
+};
+
+Point3D a{ 0,0,0 };
+Point3D b{ 1,0,0 };
+Point3D c{ 0,1,0 };
+Point3D d{ 0,0,1 };
+
+class Face
+{
+    public:
+    int nVerts;
+    VertexID* vert;
+
+    Face()
+    {
+        nVerts = 0;
+        vert = NULL;
     }
 
+    ~Face()
+    {
+        if(vert != NULL)
+        {
+            delete[] vert;
+            vert = NULL;
+        }
+        nVerts = 0;
+    }
+};
 
+class Mesh
+{
+public:
+    int Numsface;
+    Face* face;
+
+    int numVerts;
+    Point3D* pt;
+
+    Mesh()
+    {
+        numVerts = 0;
+        pt = NULL;
+        Numsface = 0;
+        face = NULL;
+    }
+    ~Mesh()
+    {
+        if(pt!=NULL)    delete[] pt;
+        if(face!=NULL)   delete[] face;
+    }
+
+    void DrawWireframe()
+    {
+        glColor3f(0,0,0);
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+        for(int f = 0; f <Numsface; f++)
+        {
+            glBegin(GL_POLYGON);
+            for(int v =0; v < face[f].nVerts ; v++)
+            {
+                int iv = face[f].vert[v].vertIndex;
+                glVertex3f(pt[iv].x,pt[iv].y,pt[iv].z);
+            }
+            glEnd();
+        }
+    }
+
+    void CreateTetrahedron(Point3D a, Point3D b,Point3D c,Point3D d)
+    {
+        numVerts = 4;
+        pt = new Point3D[4];
+        pt[0] = a;
+        pt[1] = b;
+        pt[2] = c;
+        pt[3] = d;
+
+        Numsface = 4;
+
+        face = new Face[Numsface];
+        face[0].nVerts = 3;
+        face[0].vert = new VertexID[face[0].nVerts];
+        face[0].vert[0].vertIndex = 1;
+        face[0].vert[1].vertIndex = 2;
+        face[0].vert[2].vertIndex = 3;
+
+        face[1].nVerts = 3;
+        face[1].vert = new VertexID[face[1].nVerts];
+        face[1].vert[0].vertIndex = 0;
+        face[1].vert[1].vertIndex = 2;
+        face[1].vert[2].vertIndex = 1;
+
+        face[2].nVerts = 3;
+        face[2].vert = new VertexID[face[2].nVerts];
+        face[2].vert[0].vertIndex = 0;
+        face[2].vert[1].vertIndex = 3;
+        face[2].vert[2].vertIndex = 2;
+
+        face[3].nVerts = 3;
+        face[3].vert = new VertexID[face[3].nVerts];
+        face[3].vert[0].vertIndex = 1;
+        face[3].vert[1].vertIndex = 3;
+        face[3].vert[2].vertIndex = 0;
+    }
+
+
+};
+
+float angle = 0;
+Mesh myMesh;
+
+void mydisplay()
+{
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    gluLookAt(0.7,0.5,0.3,0,0,0,0,1,0);
+    glRotatef(angle,0,1,0);
+    myMesh.DrawWireframe();
+    glFlush();
 }
 
 void init()
 {
-    calculatePoint();
-    glClearColor(1,0,0,0);
-    glColor3f(1,1,0);
+    glClearColor(1,1,1,1);
+    glColor3f(0,0,0);
+
+    glEnable(GL_DEPTH_TEST);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(-4.5,4.5,-4.5,4.5,-1.0,1.0);
+    glOrtho(-1.5,1.5,-1.5,1.5,0.1,1000);
 
 }
 
-
-
-
-
-
-void mydisplay()
+void mySpecialFunc(int key, int x, int y)
 {
-    glClear(GL_COLOR_BUFFER_BIT);
-    glColor3f(0,1,1);
-    drawCircle(0,0,R,100);
-    glPointSize(5);
-    glLineWidth(5);
-    Point2D center = {0,0};
-    for(int i = 0; i < ARCDIV*5; i++)
+    if(key == GLUT_KEY_RIGHT)
     {
-        drawPoint(circleArr[i]);
+        angle += 5;
     }
-    for(int i = 0; i < 5; i++)
+    else if(key == GLUT_KEY_LEFT)
     {
-        drawLine(center,circleArr[i*ARCDIV]);
+        angle -= 5;
     }
-    glFlush();
+    glutPostRedisplay();
 }
-
 
 int main(int argc, char** argv)
 {
     
     glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(600,600);
+    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
+    glutInitWindowSize(500,500);
     glutInitWindowPosition(0,0);
-    glutCreateWindow("Amazing Art");
+    glutCreateWindow("Simple Data Structure");
     glutDisplayFunc(mydisplay);
+    glutSpecialFunc(mySpecialFunc);
+
+    myMesh.CreateTetrahedron(a, b, c, d);
     
     init();
 
